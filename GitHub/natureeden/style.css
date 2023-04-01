@@ -1,0 +1,439 @@
+/* PC、スマホ共通スタイル　*/
+    /* 横幅設定　*/
+    body {
+        background-color: #E1D9C5;
+        margin: 0 auto;
+    }
+    img {
+        width: 100%;
+    }
+    /* ヘッダー　*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        color: #41372B;
+    }
+    #nav-pc {
+        font-size: 18px;
+        font-family: "游明朝体";
+        text-decoration: none;
+        margin: 50px 0px ;
+    }
+    a {
+        text-decoration: none;
+        margin-left: 4vw;
+        color: #41372B;
+    }
+    a:hover {
+        color: #86653E;
+        text-decoration: none;
+    }
+    .logo {
+        position: absolute;
+        width: 37%;
+        top: 0vw;
+        right: 0vw;
+    }
+    .main-image {
+        position: relative;
+    }
+    .h1-p {
+        font-size: 1vw;
+        letter-spacing: 0.3vw;
+        margin-bottom: 12vh;
+        text-align: center;
+    }
+    /* About */
+    #About {
+        text-align: center;
+    }
+    #apple {
+        width: 70%;
+    }
+    #About-h1 {
+        font-family: "游明朝体";
+        font-weight: Demibold;
+        font-size: 3.5vw;
+        text-align: center;
+        letter-spacing: 0.4vw;
+        margin-top: 17vh;
+        color: #41372B;
+        
+    }
+    .square {
+        color: #41372B;
+    }
+    #about-h2 {
+        margin-top: 17vh;
+        text-align: center;
+        font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+    }
+    #apple-p {
+        text-align: center;
+        font-size: 19px;
+        line-height: 50px;
+        margin-top: 10vh;
+        font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+   }
+    .ap-line {
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        margin-top: 6vh;
+    }
+    #ap-line {
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        margin-top: 10vh;
+    }
+    span {
+        display: inline-block;
+    }
+/* Menu */
+#Menu {
+    color: #5A5353;
+    background-color: #F2EEE4;
+}
+#menu-m {
+    margin: 0 80px;
+}
+#menu-h1 {
+        font-family: "游明朝体";
+        font-weight: "Demibold";
+        font-size: 3.5vw;
+        text-align: center;
+        letter-spacing: 0.4vw;
+        margin-top: 25vh;
+        padding-top: 17vh;
+        color: #41372B;
+}
+#Menu-cake {
+    font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+}
+.cake {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+}
+span {
+    padding-left: 0.3vw;
+}
+.cakename {
+    margin-top: 1vw;
+    width: 80%;
+}
+.cakename2 {
+    margin-top: 1vw;
+    margin-left: auto;
+    width: 80%;
+}
+.cake-p {
+    font-size: 1.3vw;
+    line-height: 3vw;
+    margin-top: 2vw;
+    padding-left: 0.5vw;
+}
+.cake-p2 {
+    font-size: 1.3vw;
+    line-height: 3vw;
+    margin-top: 2vw;
+    padding-right: 1vw;
+}
+.price {
+font-size: 2.5vw;
+}
+#fruits-img {
+    margin-bottom: 100px;
+}
+.container {
+    max-width: 1318px;
+}
+.col-md-6 {
+    padding: 0px 35px;
+}
+@media screen and (min-width: 768px) {
+#menu-sp {
+        display: none;
+    }
+#br {
+    display: none;
+    }
+#sfruits-img , #schoco-img , #sgreen-img , #scheese-img {
+    display: none;
+}
+}
+#choco-img {
+    margin-bottom: 100px;
+}
+#matcha-img {
+    margin-bottom: 100px;
+}
+#view {
+    font-size: 1.8vw;
+    text-align: center;
+    margin-top: 14vh;
+    margin-bottom: 0vw;
+    padding-bottom: 12vw;
+}
+/* News */
+#News {
+    background: rgba(65,55,43,0.5);
+    color: #F2EEE4;
+}
+#news-img {
+    opacity: 0.8;
+}
+#News-h1 {
+font-family: "游明朝体";
+font-weight: Demibold;
+font-size: 3.5vw;
+text-align: center;
+letter-spacing: 0.4vw;
+margin-top: 17vh;
+color: #F2EEE4;
+}
+#news-d {
+    font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+#News-v {
+    font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #F2EEE4;
+    margin: auto;
+    margin-top: 12vh;
+    margin-bottom: 25vh;
+}
+#News-v:hover {
+    color: #625A46;
+}
+.news-li {
+    color: #F2EEE4;
+    list-style: none;
+}
+.news-li:hover {
+    color: #625A46;
+}
+.line {
+    margin: 20px 0;
+    border-top: 1px solid #F2EEE4;
+}
+/* insta */
+#insta-title {
+    margin-top: 30vh;
+    text-align: right;
+}
+#insta-h1 {
+    width: 40%;
+    margin-right: 30px;
+}
+.slide {
+    width: 100%;
+    height: 480px; /* 画像の高さ */
+    background-image: url(images/instaimg.png);
+    background-repeat: repeat-x;
+    background-size: auto 480px;/* 画像の高さ */
+    animation: loop 50s linear infinite;
+}
+@keyframes loop {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0; /* 画像のマイナス幅 */
+    }
+}
+/* Access */
+#Access {
+    margin-top: 230px;
+    text-align: center;
+}
+#ac2 {
+width: 60%;
+float: left;
+margin-left: 4vw;
+}
+#address {
+    float: left;
+    font-family: "游明朝体";
+    letter-spacing: 0.3vw;
+    font-size: 1.2vw;
+    padding-left: 5vw;
+    color: #41372B;
+}
+.a-line {
+    width: 24vw;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+.post {
+    text-align: left;
+    line-height: 2vw;
+    margin: 2vw 0;
+}
+/* Footer */
+#footer {
+    margin-top: 20vh;
+    text-align: center;
+    background-color: #41372B;
+    opacity: 0.5;
+}
+#footercake {
+    width: 80%;
+}
+#copyright {
+    font-size: 1.5vw;
+    color: #F2EEE4;
+    margin: 0 auto;
+}
+/* スマホ用スタイル */
+@media screen and (max-width: 767px) {
+    /* PC用ナビゲーション非表示　*/
+#nav-pc {
+    display: none;
+    }
+/* ハンバーガーメニュー */
+header {
+    position: relative;
+}
+#main {
+    margin-top: 65px;
+}
+#menu-m {
+    margin: auto;
+}
+#menu-sp {
+    position: absolute;
+    width: 7%;
+    padding: 0;
+    top: 20px;
+    left: 25px;
+    }
+#circle {
+    display: none;
+}
+.div {
+    margin: 0 auto;
+}
+.h1-p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+#About-h1 , #News-h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+#about-h2 {
+    font-size: 15px;
+    margin-top: 40px;
+}
+.ap-line {
+    margin-top: 35px;
+}
+#apple-p {
+    font-size: 11px;
+    margin-top: 30px;
+    line-height: 26px;
+}
+#br {
+    display: none;
+}
+#menu-h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    padding-top: 65px;
+}
+.cake {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.cakename {
+    margin-top: -15px;
+    width: 75%;
+}
+.cakename2 {
+    margin-top: -15px;
+    width: 75%;
+    text-align: right;
+}
+.cake-p , .cake-p2 {
+    font-size: 11px;
+    line-height: 5.5vw;
+}
+.col-md-6 {
+    padding: 0px 65px;
+}
+#fruits-img , #choco-img , #matcha-img , #cheese-img {
+    display: none;
+}
+#sfruits-img , #schoco-img , #sgreen-img , #scheese-img {
+    margin: 0 auto;
+    width: 65%;
+    margin-bottom: 40px;
+}
+#view{
+    font-size: 13px;
+    margin: 0 auto;
+}
+#news-d {
+    font-size: 12px;
+    line-height: 25px;
+}
+#News-v {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+ul {
+    padding-left: 1px;
+}
+#insta-title {
+    margin-top: 90px;
+}
+#insta-h1 {
+    width: 60%;
+    margin-right: 10px;
+}
+.slide {
+    background-size: auto 310px;
+}
+#access-img {
+    margin-top: -320px;
+}
+#Access {
+    margin-top: -20px;
+}
+#ac2 {
+    margin-top: 10px;
+}
+#address {
+    font-family: "游明朝体";
+    letter-spacing: 3px;
+    font-size: 10px;
+    line-height: 50px;
+    color: #41372B;
+    padding-left: 40px;
+}
+.a-line {
+    width: 100%;
+}
+.post {
+    line-height: 18px;
+}
+#footer {
+    margin-top: 90px;
+}
+}
